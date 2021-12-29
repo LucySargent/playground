@@ -11,13 +11,13 @@ header {
 .about-me {
   width: 50%;
   height: 150px;
-  background-color: rgb(143, 245, 143);
+  background-color: lightcoral;
 }
 
 section {
   width: 50%;
   height: 100px;
-  background-color: lightpink;
+  background-color: lightblue;
 }
 
 .avatar {
