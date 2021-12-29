@@ -1,0 +1,30 @@
+body {
+  background-color: #ffffff;
+}
+
+header {
+  width: 50%;
+  height: 50px;
+  background-color: purple;
+}
+
+.about-me {
+  width: 50%;
+  height: 150px;
+  background-color: rgb(143, 245, 143);
+}
+
+section {
+  width: 50%;
+  height: 100px;
+  background-color: lightpink;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50px;
+}
+
+#name {
+  color: white;
+}
