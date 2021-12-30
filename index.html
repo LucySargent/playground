@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://kit.fontawesome.com/b67a2a5d48.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Quicksand&family=Roboto&family=Roboto+Mono:wght@300&family=Source+Sans+Pro&family=Source+Serif+Pro&family=Ubuntu+Mono&display=swap"
@@ -12,15 +13,18 @@
   <body>
     <nav>
       <img
-      class="logo"
-    src="images/logo.jpg"
-    alt="Lucy Sargent Logo"
+        class="logo"
+        src="images/logo.jpg"
+        alt="Lucy Sargent Logo"
       ></img>
-      <ul class="nav-bar">
+      <ul class="nav-bar" id="nav-list">
           <li><a href="#about-me">About me</a></li>
           <li><a href="https://github.com/LucySargent">Github</a></li>
           <li><a href="pages/contact.html">Contact me</a></li>
       </ul>
+      <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
     </nav>
     <div class="hero">
       <div class="hero-info">
@@ -31,14 +35,18 @@
       </div>
       <div>
         <img
-        class="hero-image"
-        src="images/working-illustration.png"
-        alt="illustration of woman working"
+          class="hero-image"
+          src="images/working-illustration.png"
+          alt="illustration of woman working"
+          />
       </div>
     </div>
     <section>
       <div class="about-me">
-        <img class="avatar" src="images/head.png" alt="headshot" 
+        <img 
+          class="avatar" 
+          src="images/head.png" 
+          alt="headshot" 
         />
       </div>
       <div class="info">
@@ -47,12 +55,48 @@
       </div>
     </section>
     <section>
-    <div class="test"></div>
-      <div class="test"></div>
-      <div class="test" id="main"></div>
-      <div class="test"></div>
-      <div class="test"></div>
+      <i class="far fa-user-circle"><a href=""></a></i>
+      <a href="https://www.linkedin.com/in/lucy-sargent/"><i class="fab fa-github"></i></a>
+      <a href="https://github.com/LucySargent"><i class="fab fa-linkedin"></i></a>
     </section>
-    <footer></footer>
+    <section>
+     <form>
+       <h2>Contact Me</h2>
+       <div class="input-section">
+          <div class="input-group">  
+          <label for="first-name">First name:</label>
+          <input type="text" id="first-name" name="first-name" value="John"></input>
+      </div>
+      <div class="input-group">  
+        <label for="last-name">Last name:</label>
+        <input type="text" id="last-name" name="last=name" value="Doe"></input>
+       </div>
+      </div>
+       <div class="input-section">
+        <input type="radio" id="office" name="office" value="office"></input>
+        <label for="office">Office</label>
+        <input type="radio" id="remote" name="remote" value="remote"></input>
+        <label for="remote">Remote</label>
+        <input type="radio" id="other" name="other" value="other"></input>
+        <label for="other">Other</label>
+      </div>
+      <div class="input-section">
+        <input type="checkbox" id="contract" name="contract" value="contract"></input>
+        <label for="contract">Contract work</label>
+        <input type="checkbox" id="full-time" name="full-time" value="full-time"></input>
+        <label for="full-time">Full time</label>
+        <input type="checkbox" id="sponsorship" name="sponsorship" value="sponsorship"></input>
+        <label for="sponsorship">Sponsorship</label>
+      </div>
+       <input class="button" type="submit" value="Submit"></input>
+     </form> 
+    </section>
+    <footer>
+        <ul>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="pages/contact.html">Contact me</a></li>
+            <li><a href="https://github.com/LucySargent">Github</a></li>
+        </ul>
+    </footer>
   </body>
 </html>
